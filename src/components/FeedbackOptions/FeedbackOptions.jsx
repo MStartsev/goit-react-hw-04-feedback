@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import {
   FeedbackContainer,
   FeedbackButton,
-} from 'components/FeedbackOptions/FeedbackOptions.styled';
+} from 'components/FeedbackOptions/FeedbackOptionsElements';
 
 const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   const { good, neutral, bad } = options;
