@@ -4,15 +4,16 @@ import {
   FeedbackOptions,
   Section,
   Notification,
+  Container,
 } from 'components/App';
 
-import { Container } from './App.styled';
-
+document.title = 'Feedback';
 class App extends Component {
   state = {
     good: 0,
     neutral: 0,
     bad: 0,
+    bado: 0,
   };
 
   optionsFeedback = {

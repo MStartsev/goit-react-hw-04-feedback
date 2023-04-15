@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 398px;
+  gap: 30px;
+  min-height: 298px;
+  background-color: #eef0e4;
+  border-radius: 10px;
+  margin-inline: auto;
+  margin-block: 5vh;
+  padding-block: 30px;
+  border: 1px solid #777;
+  list-style: none;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}

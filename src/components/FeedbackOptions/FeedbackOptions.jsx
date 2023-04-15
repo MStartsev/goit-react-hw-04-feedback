@@ -1,9 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {
-  FeedbackContainer,
-  FeedbackButton,
-} from 'components/FeedbackOptions/FeedbackOptionsElements';
+import { FeedbackContainer, FeedbackButton } from './FeedbackOptionsElements';
 
 const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   const { good, neutral, bad } = options;
