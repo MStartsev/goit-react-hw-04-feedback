@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
 import { NotificationItem } from './NotificationElements';
 
-function Notification({ message }) {
-  return <NotificationItem>{message}</NotificationItem>;
-}
+const Notification = ({ message }) => (
+  <NotificationItem>{message}</NotificationItem>
+);
 
 Notification.propTypes = {
   message: PropTypes.string.isRequired,
